@@ -11,6 +11,7 @@
 #![cfg_attr(feature = "arduino-mega2560", doc = "**Arduino Mega 2560**.")]
 #![cfg_attr(feature = "arduino-nano", doc = "**Arduino Nano**.")]
 #![cfg_attr(feature = "arduino-uno", doc = "**Arduino Uno**.")]
+#![cfg_attr(feature = "arduino-uno-no-crystal", doc = "**Arduino Uno without external osculator**.")]
 #![cfg_attr(feature = "sparkfun-promicro", doc = "**SparkFun ProMicro**.")]
 #![cfg_attr(feature = "trinket-pro", doc = "**Trinket Pro**.")]
 #![cfg_attr(feature = "trinket", doc = "**Trinket**.")]
