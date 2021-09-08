@@ -18,6 +18,7 @@ arduino-leonardo = ["mcu-atmega", "atmega-hal/atmega32u4", "board-selected", "mh
 arduino-mega2560 = ["mcu-atmega", "atmega-hal/atmega2560", "board-selected", "mhz16"]
 arduino-nano = ["mcu-atmega", "atmega-hal/atmega328p", "atmega-hal/enable-extra-adc", "board-selected", "mhz16"]
 arduino-uno = ["mcu-atmega", "atmega-hal/atmega328p", "board-selected", "mhz16"]
+arduino-uno-no-crystal = ["mcu-atmega", "atmega-hal/atmega328p", "board-selected", "mhz8"]
 trinket-pro = ["mcu-atmega", "atmega-hal/atmega328p", "board-selected", "mhz16"]
 sparkfun-promicro = ["mcu-atmega", "atmega-hal/atmega32u4", "board-selected", "mhz16"]
 trinket = ["mcu-attiny", "attiny-hal/attiny85", "board-selected", "mhz8"]
