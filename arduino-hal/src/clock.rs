@@ -14,17 +14,9 @@ pub(crate) mod default {
     ///
     /// However, you can of course still use other clock speeds but you'll then need to correctly
     /// name the types from the HAL crate using your own clock definition.
-    #[cfg(any(
-        feature = "arduino-diecimila",
-        feature = "arduino-leonardo",
-        feature = "arduino-mega2560",
-        feature = "arduino-nano",
-        feature = "arduino-uno",
-        feature = "sparkfun-promicro",
-        feature = "trinket-pro",
-        feature = "nano168",
-    ))]
+    #[cfg(feature = "mhz16")]
     pub type DefaultClock = avr_hal_generic::clock::MHz16;
-    #[cfg(feature = "trinket")]
+
+    #[cfg(feature = "mhz8")]
     pub type DefaultClock = avr_hal_generic::clock::MHz8;
 }
